@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Proyecto final</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="C:\Users\usuario\Desktop\Portfolio\IMAGEN/logo.jpg" alt="">
+            <ul>
+                <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                <li><a href="#acercademi" onclick="seleccionar(this)">ACERCA DE MI</a></li>
+                <li><a href="#portfolio" onclick="seleccionar(this)">PORTFOLIO</a></li>
+                <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+            </ul>
+        </nav>
+
+        <div class="detel">
+            <h1>Sebastian <span>Matias</span> </h1>
+            <p>Este es mi Portfolio website
+            <br>detalles y trabajos experiencias web y desarrollo
+            </p>
+            <a href="C:\Users\usuario\Desktop\Sebastian\Sebastian/cv.png">Descargar CV</a>
+        </div>
+        <div class="imagen">
+          
+            <img src="C:\Users\usuario\Desktop\Portfolio\IMAGEN/Sebastian.jpg" class="foto">
+            
+        </div>
+    </div>
+
+    <section id="contacto">
+        <h3 class="titulos-section"> Contactame </h3>
+         <div class="contenedor-form">
+             <form action="">
+                  <div class="fila mitad">
+                      <input type="text" placeholder="Nombre completo"  class="input-mitad"> <br> <br>
+                      <input type="text" placeholder="Correo electronico"  class="input-mitad">
+                     
+                  </div>
+                   <div class="fila">
+                    <input type="text" placeholder="Tema"  class="input-full">
+                   </div>
+                   <div class="fila">
+                       <textarea cols="30" rows="10" placeholder="tu mensaje ..." class="input-full"></textarea>
+                   </div>
+                   <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+
+             </form>
+         </div>
+    </section>
+
+    </div>
+
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/sebastian-matias-pepe-5732a5218/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:sebapepe21@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a href="wa.me/+542235339293"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+    </footer>
+    
+     
+    
+    <script src="script.js"></script>
+</body>
+ 
+</html>
